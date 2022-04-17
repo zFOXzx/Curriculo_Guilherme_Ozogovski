@@ -1,0 +1,243 @@
+.foto_perfil {
+    border-radius: 5%;
+    max-width: 200px;
+    border: 1px solid black;
+}
+
+body {
+    background-color: black;
+    width: 100%;
+    color: red;
+    text-align: center;
+    min-height: 100vh;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whatsapp {
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.container {
+    width: 50%;
+    overflow-y: scroll;
+    height: 90vh;
+    padding: 15px 2%;
+    box-shadow: 0 0 5px red;
+}
+
+.container::-webkit-scrollbar{
+    width: 14px;
+    border: 1px solid red;
+}
+
+.container::-webkit-scrollbar-thumb{
+    background-color: red;
+    border-radius: 6px;
+}
+
+.dado1 {
+    border-top: medium dashed red;
+    border-bottom: medium dashed red;
+    height: 5px;
+    overflow: visible;
+    padding: 0;
+    text-align: center;
+}
+
+.dado1::after{
+    color: grey;
+    content: "GUILHERME OZOGOVSKI";
+    font-size: 1.4em;
+    padding: 0 0 0.3em;
+    top: -0.7em;
+    background: black;
+    display: inline;
+    position: relative;
+}
+
+.hr1 {
+    border-top: medium dashed red;
+    border-bottom: medium dashed red;
+    height: 3px;
+    overflow: visible;
+    padding: 0;
+    text-align: center;
+}
+
+.hr1::after {
+    color: grey;
+    content: "Objetivo";
+    font-size: 1.4em;
+    padding: 0 0.3em;
+    top: -0.7em;
+    background: black;
+    display: inline;
+    position: relative;
+}
+
+.hr2 {
+    border-top: medium dashed red;
+    border-bottom: medium dashed red;
+    height: 3px;
+    overflow: visible;
+    padding: 0;
+    text-align: center;
+}
+
+.hr2::after {
+    color: grey;
+    content: "Resumo";
+    font-size: 1.4em;
+    padding: 0 0.3em;
+    top: -0.7em;
+    background: black;
+    display: inline;
+    position: relative;
+}
+
+.hr3 {
+    border-top: medium dashed red;
+    border-bottom: medium dashed red;
+    height: 3px;
+    overflow: visible;
+    padding: 0;
+    text-align: center;
+}
+
+.hr3::after {
+    color: grey;
+    content: "Cursos";
+    font-size: 1.4em;
+    padding: 0 0.3em;
+    top: -0.7em;
+    background: black;
+    display: inline;
+    position: relative;
+}
+
+.hr4 {
+    border-top: medium dashed red;
+    border-bottom: medium dashed red;
+    height: 3px;
+    overflow: visible;
+    padding: 0;
+    text-align: center;
+}
+
+.hr4::after {
+    color: grey;
+    content: "Experiência";
+    font-size: 1.4em;
+    padding: 0 0.3em;
+    top: -0.7em;
+    background: black;
+    display: inline;
+    position: relative;
+}
+
+.hr5 {
+    border-top: medium dashed red;
+    border-bottom: medium dashed red;
+    height: 3px;
+    overflow: visible;
+    padding: 0;
+    text-align: center;
+}
+
+.hr5::after {
+    color: grey;
+    content: "Ferramentas";
+    font-size: 1.4em;
+    padding: 0 0.3em;
+    top: -0.7em;
+    background: black;
+    display: inline;
+    position: relative;
+}
+
+.hr6 {
+    border-top: medium dashed red;
+    border-bottom: medium dashed red;
+    height: 3px;
+    overflow: visible;
+    padding: 0;
+    text-align: center;
+}
+
+.hr6::after {
+    color: grey;
+    content: "Idiomas";
+    font-size: 1.4em;
+    padding: 0 0.3em;
+    top: -0.7em;
+    background: black;
+    display: inline;
+    position: relative;
+}
+
+.hr7 {
+    border-top: medium dashed red;
+    border-bottom: medium dashed red;
+    height: 3px;
+    overflow: visible;
+    padding: 0;
+    text-align: center;
+}
+
+.hr7::after {
+    color: grey;
+    content: "Linguagens";
+    font-size: 1.4em;
+    padding: 0 0.3em;
+    top: -0.7em;
+    background: black;
+    display: inline;
+    position: relative;
+}
+
+.hr8 {
+    border-top: medium dashed red;
+    border-bottom: medium dashed red;
+    height: 3px;
+    overflow: visible;
+    padding: 0;
+    text-align: center;
+}
+
+.hr8::after {
+    color: grey;
+    content: "Redes Sociais";
+    font-size: 1.4em;
+    padding: 0 0.3em;
+    top: -0.7em;
+    background: black;
+    display: inline;
+    position: relative;
+}
+
+.infe {
+    color: red;
+    cursor:pointer;
+    margin: 5px;
+    max-height: 100%;
+    -webkit-animation: all 0.3s;
+    -moz-animation: all 0.3s;
+    transition: all 0.3s;
+}
+
+.infe::hover {
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    transform: scale(1.5);
+    color: white
+}
